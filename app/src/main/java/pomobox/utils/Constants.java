@@ -1,4 +1,4 @@
-package pomobox.constant;
+package pomobox.utils;
 
 public class Constants {
     //Option click menu bar
@@ -10,4 +10,8 @@ public class Constants {
     public static final int OPTION_ABOUT = 5;
     //title on app bar
     public static final int APP_BAR_DEFAULT_TITLE = 1;
+
+    public static final int DEFAULT_ZERO_VALUE = 0;
+
+    public static final int ONE_VAUE = 1;
 }

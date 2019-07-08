@@ -7,4 +7,10 @@
     <color name="color_black">#000</color>
     <color name="color_dark_red">#B71C1C</color>
     <color name="color_white">#fff</color>
+    <color name="color_brown">#985321</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_yellow_light">#D2FFEB3B</color>
+    <color name="color_gray">#9c9c9c</color>
+    <color name="color_background_button">#4CAF50</color>
+    <color name="color_yellow_white">#F0F4C3</color>
 </resources>
