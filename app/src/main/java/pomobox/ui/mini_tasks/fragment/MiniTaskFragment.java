@@ -25,6 +25,9 @@ import pomobox.data.model.MiniTask;
 import pomobox.data.database.MiniTaskHelperDB;
 import pomobox.ui.mini_tasks.holder.MiniTaskAdapter;
 
+import static pomobox.utils.Constants.VALUE_ONE;
+import static pomobox.utils.Constants.VALUE_TEN;
+
 public class MiniTaskFragment extends BaseFragment implements MiniTaskContract.View {
 
     private MiniTaskHelperDB mHelper;
@@ -102,9 +105,9 @@ public class MiniTaskFragment extends BaseFragment implements MiniTaskContract.V
                 final EditText textContent = dialog.findViewById(R.id.text_enter_content_task);
                 Button buttonAdd = dialog.findViewById(R.id.button_create_task);
                 final SeekBar seekBar = dialog.findViewById(R.id.seekbar_target_pomodoro);
-                seekBar.setMax(TEN_VALUE);
+                seekBar.setMax(VALUE_TEN);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    seekBar.setMin(ONE_VALUE);
+                    seekBar.setMin(VALUE_ONE);
                 }
                 seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                     @Override
@@ -123,7 +126,7 @@ public class MiniTaskFragment extends BaseFragment implements MiniTaskContract.V
                     }
                 });
 
-                btnAdd.setOnClickListener(new View.OnClickListener() {
+                buttonAdd.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         String taskTitle = textTitle.getText().toString();
