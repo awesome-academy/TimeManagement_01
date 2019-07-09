@@ -18,8 +18,8 @@ import java.util.List;
 
 import pomobox.R;
 import pomobox.base.BaseAlertDialog;
-import pomobox.data.model.MiniTask;
 import pomobox.data.database.MiniTaskHelperDB;
+import pomobox.data.model.MiniTask;
 
 import static pomobox.utils.Constants.VALUE_ONE;
 
