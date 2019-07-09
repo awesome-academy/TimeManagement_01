@@ -20,7 +20,7 @@ import pomobox.ui.mini_tasks.fragment.MiniTaskFragment;
 import pomobox.ui.pomodoro.PomodoroFragment;
 import pomobox.R;
 import pomobox.ui.about.AboutFragment;
-import pomobox.ui.aishenhower_box.AishenhowerBoxFragment;
+import pomobox.ui.eishenhower_box.EishenhowerBoxFragment;
 import pomobox.utils.IOptions;
 import pomobox.ui.helps.HelpsFragment;
 import pomobox.ui.settings.SettingsFragment;
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity
         @IOptions int i = position;
         switch (i) {
             case OPTION_AISHENHOWER_BOX:
-                fragment = AishenhowerBoxFragment.newInstance();
+                fragment = EishenhowerBoxFragment.newInstance();
                 break;
 
             case OPTION_POMODORO:

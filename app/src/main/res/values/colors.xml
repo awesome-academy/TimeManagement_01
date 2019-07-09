@@ -6,4 +6,11 @@
     <color name="color_red">#FF0000</color>
     <color name="color_black">#000</color>
     <color name="color_dark_red">#B71C1C</color>
+    <color name="color_white">#fff</color>
+    <color name="color_yellow_light">#FFD54F</color>
+    <color name="color_yellow_white">#E6EE9C</color>
+    <color name="color_brown">#985321</color>
+    <color name="color_gray">#9C9C9C</color>
+    <color name="color_green">#388E3C</color>
+    <color name="color_transparent">#00000000</color>
 </resources>
